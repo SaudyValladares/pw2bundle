@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria</title>
+    <link rel="stylesheet" href="less/style.less">
+</head>
+
+<body>
+    <header>
+        <input type="checkbox" id="check">
+        <label class="hamburger" for="check">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </label>
+        <section class="branding">
+            <img src="https://picsum.photos/id/1063/63/63" alt="logo">
+            <h1>Galeria</h1>
+        </section>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <picture>
+                <source srcset="https://th.bing.com/th/id/R.5bcbb162fe46e6cbeb4d7b2bf357ed21?rik=CAO%2fG%2b2TT%2b0DZw&riu=http%3a%2f%2fplanearnegocios.com%2fwp-content%2fuploads%2f2010%2f10%2fGaleria_de_Arte_de_Caxias.jpg&ehk=9y2ufR%2fc%2fq5FGS74eGxgJNb9qfORKfePJ88vTawfzMg%3d&risl=&pid=ImgRaw&r=0" media="(min-width: 1024px)">
+                <source srcset="https://th.bing.com/th/id/R.5bcbb162fe46e6cbeb4d7b2bf357ed21?rik=CAO%2fG%2b2TT%2b0DZw&riu=http%3a%2f%2fplanearnegocios.com%2fwp-content%2fuploads%2f2010%2f10%2fGaleria_de_Arte_de_Caxias.jpg&ehk=9y2ufR%2fc%2fq5FGS74eGxgJNb9qfORKfePJ88vTawfzMg%3d&risl=&pid=ImgRaw&r=0" media="(min-width: 720px)">
+                <img src="https://th.bing.com/th/id/R.5bcbb162fe46e6cbeb4d7b2bf357ed21?rik=CAO%2fG%2b2TT%2b0DZw&riu=http%3a%2f%2fplanearnegocios.com%2fwp-content%2fuploads%2f2010%2f10%2fGaleria_de_Arte_de_Caxias.jpg&ehk=9y2ufR%2fc%2fq5FGS74eGxgJNb9qfORKfePJ88vTawfzMg%3d&risl=&pid=ImgRaw&r=0" alt="bakery">
+            </picture>
+            <h2>Galeria</h2>
+            <a href="#">Order Now</a>
+        </section>
+
+      {{>gallery}}
+      <h1>Galería de Imágenes</h1>
+      <div class="gallery">
+          <img src="https://picsum.photos/200/300" alt="Imagen 1">
+          <img src="https://picsum.photos/200/301" alt="Imagen 2">
+          <img src="https://picsum.photos/200/302" alt="Imagen 3">
+          <img src="https://picsum.photos/200/303" alt="Imagen 4">
+          <img src="https://picsum.photos/200/304" alt="Imagen 5">
+          <img src="https://picsum.photos/200/305" alt="Imagen 6">
+          <img src="https://picsum.photos/200/306" alt="Imagen 7">
+          <img src="https://picsum.photos/200/307" alt="Imagen 8">
+          <img src="https://picsum.photos/200/308" alt="Imagen 9">
+          <img src="https://picsum.photos/200/309" alt="Imagen 10">
+          <img src="https://picsum.photos/200/310" alt="Imagen 11">
+          <img src="https://picsum.photos/200/311" alt="Imagen 12">
+          <img src="https://picsum.photos/200/312" alt="Imagen 13">
+          <img src="https://picsum.photos/200/313" alt="Imagen 14">
+          <img src="https://picsum.photos/200/314" alt="Imagen 15">
+      </div>
+
+       
+
+        
+        
+    </main>
+    <footer>
+        <p>&copy; 2023 Bakery</p>
+        <section class="Telefono">
+            <a href="tel:+1234567890">+3285859505</a>
+            <a href="tel:+1234567890">24343546656</a>
+        </section>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+
+</html>
